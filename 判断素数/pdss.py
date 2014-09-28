@@ -4,7 +4,6 @@
 标签：判断素数
 """
 import math
-import cmath
 
 def isPrime(num) :
 	for i in range(2,math.ceil(math.sqrt(num))) :
