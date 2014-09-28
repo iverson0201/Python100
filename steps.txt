@@ -1,5 +1,35 @@
+0.
+$git config --global user.name "JianZhen"
+$git config --global user.email zixiangchen@qq.com
+
 1.
 $git init
 $git status
+
 2.
 $git add steps.txt
+$git add .
+$git commit -m "第一次玩，记录一下"
+$git log
+
+3!
+$git revert HEAD
+
+4.
+$git branch 'python100+'
+$git checkout 'python100'
+  $git checkout -b python100+
+$git checkout master 
+$git merge python100+
+
+5.
+$git fetch origin
+$git merge origin/master
+$git push origin master
+
+6.
+$git remote add origin http://github.com/JianZhen/Python100
+$git push -u origin master
+
+7.
+$exit
